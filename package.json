@@ -1,0 +1,25 @@
+{
+  "name": "tea-time-topic",
+  "version": "1.0.0",
+  "description": "One last vanilla javascript challenge for the road 🧨",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onja-org/tea-time-topic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onja-org/tea-time-topic/issues"
+  },
+  "homepage": "https://github.com/onja-org/tea-time-topic#readme",
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "devDependencies": {
+    "sass": "^1.26.11"
+  }
+}

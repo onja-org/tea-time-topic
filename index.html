@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="style.scss" />
+		<title>Tea Time Topic</title>
+	</head>
+	<body>
+		<h1>Tea Time Topic</h1>
+		<main>
+			<section>
+				<header><h4>Add a topic</h4></header>
+				<article>
+					<form class="add-topic">
+						<input
+							required
+							type="text"
+							name="topic"
+							placeholder="Type your topic idea here"
+						/>
+						<button type="submit">Submit</button>
+					</form>
+				</article>
+			</section>
+
+			<section class="next-topic">
+				<header><h4>Next Topic</h4></header>
+				<section class="next-topic-container"></section>
+			</section>
+			<section class="prevTopic">
+				<header><h4>Past Topics</h4></header>
+				<section class="prevTopicContainer"></section>
+			</section>
+		</main>
+		<script type="module" src="script.js"></script>
+	</body>
+</html>
